@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Health Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Online Soldier Health Monitoring System</h1>
+    <h3>Real-time Sensor Data</h3><br><br>
+    <div class="params">
+        <div class="param">
+            <i class="fa fa-cloud" aria-hidden="true"></i><p> Ambient Temperature: {{ ambient_temp }}°C</p>
+        </div>
+        <div class="param">
+            <i class="fa fa-thermometer-half" aria-hidden="true"></i><p> Body Temperature: {{ object_temp }}°C</p>
+        </div>
+        <div class="param">
+            <i class="fa fa-heartbeat" aria-hidden="true"></i><p> Pulse Rate: {{ pulse_rate }} BPM</p>
+        </div>
+        <div class="param">
+            <i class="fa fa-percent" aria-hidden="true"></i><p> SpO2: {{ spO2 }}%</p>
+        </div>
+    </div>
+</body>
+</html>
