@@ -109,3 +109,24 @@ body{
 a{
   text-decoration: none;
 }
+
+@media screen and (max-width: 480px){
+  .tile{
+    padding: 2rem 2rem;
+    font-size: 1rem;
+    width: 100vw;
+  }
+  header h1{
+    font-size: 1.5rem;
+  }
+  header img{
+    width: auto;
+    min-height: 300px;
+  }
+  .person .name{
+    font-size: 1.1rem;
+  }
+  .person .post{
+    font-size: 0.8rem;
+  }
+}
